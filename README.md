@@ -10,7 +10,9 @@ Remote-MCP-Server, der für Profil- und Bewerbungsfotos beantwortet: Welche Grö
 
 ## Status
 
-Version 0.1.0, gebaut und getestet am 12.11.2026, Daten live geprüft am 12.11.2026. Lokal mit `wrangler dev` geprüft. **Kein Production-Deploy**; die URL in `server.json` (`https://profilbild-mcp.profilfoto-ki.de/mcp`) ist ein Vorschlag. Der bestehende Server auf mcp.profilfoto-ki.de bleibt unverändert.
+**Öffentliche Preview (kostenlos, Netlify Function, gleicher Code):** `https://profilbild-formate-mcp.netlify.app/mcp` – am 12.11.2026 per curl geprüft (health 200, initialize, tools/list, tools/call positiv und negativ, OPTIONS 204). Manueller Deploy, nicht mit GitHub verknüpft.
+
+Version 0.1.0, gebaut und getestet am 12.11.2026, Daten live geprüft am 12.11.2026. Lokal mit `wrangler dev` und 51 Vitest-Tests geprüft. **Kein Production-Deploy**; die URL in `server.json` (`https://profilbild-mcp.profilfoto-ki.de/mcp`) ist ein Vorschlag. Der bestehende Server auf mcp.profilfoto-ki.de bleibt unverändert.
 
 ## Tools
 
